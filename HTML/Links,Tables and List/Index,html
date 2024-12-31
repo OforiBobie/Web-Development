@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Links,Tables and lists</title>
+</head>
+<body>
+    <h1> Welcome to my Demo website</h1>
+    <p>This pages demonstrates Hyperlinks,Lists and table</p>
+    <b>Hyperlinks</b>
+    <p>Visit the following websites:</p>
+    <a href="https://www.bing.com/hp?mkt=us-eN">Bing's website</a>
+    <a href="https://www.google.com/">Google's website</a>
+    <a href="https://www.codingal.com">Codingal</a>
+    <h2>Lists</h2>
+    <p>There are 3 types of lists in html</p>
+    <b>Unordered lists</b>
+    <p> Lists with bullet and without Numbers</p>
+    <ul>
+        <li>Benz</li>
+        <li>Toyota</li>
+        <Li>Audi</Li>
+        <li>Mazda</li>
+        <li>Nissan</li>
+        <li>Tesla</li>
+    </ul>
+    <i>Ordered lists</i>
+    <p>A list of itemes that that are numbered</p>
+    <ol>
+        <li>Benz</li>
+        <li>Toyota</li>
+        <Li>Audi</Li>
+        <li>Mazda</li>
+        <li>Nissan</li>
+        <li>Tesla</li>    
+    </ol>
+    <mark>Description List</mark>
+    <p> A list used to describe an item</p>
+    <dl>
+        <dt>Cars</dt>
+        <dd>This is an automobile that is used for transportation it has wheel and the wheel spin in  order to move forward</dd>
+    </dl>
+    <table border="5">
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th>School</th>
+        </tr>
+        <tr>
+            <td>Kwaku</td>
+            <td>Germany</td>
+            <td>Coding University</td>
+            
+        </tr>
+        <tr>
+            <td>Obenewa</td>
+            <td>South Korea</td>
+            <td>Udemy Code school</td>
+        </tr>
+        <tr>
+            <td>Michael</td>
+            <td>Ghana</td>
+            <td><Strong></Strong> Jonn's</td>
+        </tr>
+    </table>
+</body>
+
+
