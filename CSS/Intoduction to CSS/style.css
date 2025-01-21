@@ -1,0 +1,20 @@
+/* comment in css*/
+/*General stylings*/
+body{
+    background-color: rgb(140, 151, 151);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* class selector-dot operator*/
+.container{
+    width: 80%;
+    background-color:white ;
+    margin: auto;
+    border-radius: 15px;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+div{
+    height: 300px;
+    width: 200px;
+    border: 3px dotted black;
+}
+#portion1{
+    background:linear-gradient(blue,yellow,aquamarine,teal,magenta,orange);
+}
+#portion2{
+    background: radial-gradient( green,pink,gold,purple,grey,green,indigo)
+}
+@keyframes ellipse{
+    0%{background-color: aqua;}
+    25%{background-color: chartreuse;}
+    50%{background-color: brown;}
+    75%{background-color: darkcyan;}
+    100%{background-color: cyan;}
+}
+#portion3{
+    animation-name: ellipse;
+    animation-duration: 8s;
+}
