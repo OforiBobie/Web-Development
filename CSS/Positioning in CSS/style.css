@@ -1,0 +1,75 @@
+body{
+    font-family: cursive;
+    margin: 20px;
+    background-color: grey;
+    color: aqua;
+}
+h1{
+    text-align: center;
+    text-decoration: underline overline;
+}
+.container{
+    border: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+.box-static{
+    background-color: darkcyan;
+    position: static;
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.box-relative{
+    background-color: rgb(255, 115, 0);
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    color: aqua;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    line-height: 50px;
+    left: 50px;
+    top: 10px;
+}
+.box-absolute{
+    background-color: blue;
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        color: aqua;
+        box-shadow: 0 0 10px;
+        text-align: center;
+        line-height: 50px;
+        left: 50px;
+        top: 10px
+}
+.box-sticky{
+    background-color: rgb(255, 115, 0);
+        position: sticky;
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        color: aqua;
+        box-shadow: 0 0 10px;
+        text-align: center;
+        line-height: 50px;
+        top: 10px
+}
+.box-fixed{
+    background-color: rgb(255, 115, 0);
+        position: fixed;
+        width: 150px;
+        height: 50px;
+        border-radius: 8px;
+        color: aqua;
+        box-shadow: 0 0 10px;
+        text-align: center;
+        line-height: 50px;
+        right: 50px;
+}
