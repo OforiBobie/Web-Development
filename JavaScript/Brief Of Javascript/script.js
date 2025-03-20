@@ -3,7 +3,8 @@ function generateNumbers(){
     let count=0;
     while(count < 10){
         let randomNum=Math.floor(Math.random()*100);
-        output+=randomNum + "";
+        output+=randomNum +" ";
+        count++;
     }
     document.getElementById("output").innerText=output;
 }
