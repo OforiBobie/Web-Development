@@ -15,6 +15,10 @@
             //display the array
             document.getElementById("output").innerHTML=points;
             //sort the array in descending order
+            function ascending() {
+                    points.sort(function (a, b) { return a-b})
+                    document.getElementById("output").innerHTML = points;
+            }
             function descending(){
                 points.sort(function(a,b){return b-a})
                 document.getElementById("output").innerHTML=points;
