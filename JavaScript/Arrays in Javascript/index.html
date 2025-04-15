@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays In Javascript</title>
+    </head>
+    <body>
+        <h1>Arays and their methods</h1>
+        <p id="array_output"></p>
+        <p id="join_output"></p>
+        <p id="pop_output"></p>
+        <script>
+            var fruits=["apple","banana","mango","orange"];
+            //displaying the array
+            document.getElementById("array_output").innerHTML=fruits;
+            //joining the array element
+            var joined_fruits=fruits.join("*")
+            document.getElementById("join_output").innerHTML=joined_fruits;
+            //removing the last element of the array
+            var popped_fruits = fruits.pop(1)
+                document.getElementById("pop_output").innerHTML = popped_fruits;
+        </script>
+    </body>
+</html>
