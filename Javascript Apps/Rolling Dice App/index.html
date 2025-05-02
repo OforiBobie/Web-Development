@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rolling Dice</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>🎲Roll the Dice</h1>
+        <div id="dice" class="dice">🎲</div>
+        <button class="roll-btn" onclick="rollDice()">Roll</button>
+        <script>
+            function rollDice(){
+                const dicefaces=
+                ['⚀', '⚁', '⚂', '⚃', '⚄', '⚅'];
+                const randomIndex=Math.floor(Math.random()*6);
+                document.getElementById("dice").textContent=dicefaces[randomIndex];
+            }
+        </script>
+    </body>
+</html>
